@@ -1,4 +1,4 @@
-import streamlit as at
+import streamlit as st
 st.title("電卓")
 num1=st.number_input(input("1つ目の数字を入力してください"))
 num2=st.number_input(input("2つ目の数字を入力してください"))
