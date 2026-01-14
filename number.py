@@ -1,7 +1,7 @@
 import streamlit as st
 st.title("電卓")
-num1=st.number_input(input("1つ目の数字を入力してください"))
-num2=st.number_input(input("2つ目の数字を入力してください"))
+num1=st.number_input("1つ目の数字を入力してください")
+num2=st.number_input("2つ目の数字を入力してください")
 operation=st.selectbox("計算方法を選んでください",("足し算","引き算","掛け算","割り算"))
 if st.button("計算する"):
     if operation=="足し算":
